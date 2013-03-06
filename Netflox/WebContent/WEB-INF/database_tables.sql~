@@ -1,0 +1,69 @@
+
+
+create table client (
+  nom varchar(30) not null,
+  prenom varchar(30) not null,
+  email varchar(30) not null,
+  adresse varchar(60) not null,
+  date_anniversaire date not null,
+  password varchar(60) not null,
+  credits_location integer not null,
+  credits_telechargement integer not null,
+  primary key (email)
+);
+
+create table commande (
+  id varchar(60) not null,
+  montant double not null,
+  date_commande date not null,
+  date_livraison date not null,
+  date_rendu date not null,
+  id_client varchar(30) not null,
+  primary key (id),
+  foreign key (id_client) references client(email)
+  
+);
+
+create table dvd (
+  id varchar(60) not null,
+  duree integer not null,
+  titre varchar(60) not null,
+  annee integer not null,
+  description varchar(400) not null,
+  primary key (id)
+);
+
+create table artiste(
+  id varchar(60) not null,
+  nom varchar(30) not null,
+  prenom varchar(30) not null,
+  primary key (id)
+);
+
+create table acteur (
+  nom varchar(30) not null,
+  prenom varchar(30) not null,
+  unique (nom, prenom)
+);
+
+create table realisateur ( 
+  nom varchar(30) not null,
+  prenom varchar(30) not null,
+  unique (nom, prenom),
+);
+
+create table role (
+  id_dvd varchar(60) not null,
+  id_artiste varchar(60) not null,
+  primary key (id_dvd, id_artiste),
+  foreign key (id_dvd) references dvd(id),
+  foreign key (id_artiste) references artiste(id)
+);
+
+create table liste_dvds_commande (
+  id_command varchar(60) not null,
+  id_dvd varchar(60) not null,
+  primary key (id_command, id_dvd),
+  foreign key (id_command) references commande(id),
+  foreign key (id_dvd) references dvd(id)
+);
