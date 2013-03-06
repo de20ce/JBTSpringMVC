@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="JBTSpringMVC">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="spring-jdbc-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-jdbc-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jms-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-jms-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-tests.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/commons-logging-1.1.1/commons-logging-tests.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsr94-j2ee.rar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/javax.annotation/jsr94-j2ee.rar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-struts-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-struts-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-context-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-tx-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-oxm-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-oxm-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jms-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-jms-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-support-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-context-support-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-api-1.1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/commons-logging-1.1.1/commons-logging-api-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-context-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.annotation_1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/javax.annotation/javax.annotation_1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-orm-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-orm-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-oxm-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-oxm-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-adapters-1.1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/commons-logging-1.1.1/commons-logging-adapters-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.1-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/commons-logging-1.1.1/commons-logging-1.1.1-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jdbc-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-jdbc-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-web-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs_complementary/spring-web-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-test-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-test-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-test-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-test-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-beans-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-instrument-tomcat-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-instrument-tomcat-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-test-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-test-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-expression-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-portlet-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-webmvc-portlet-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-expression-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-struts-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-struts-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-expression-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-core-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jdbc-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-jdbc-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-instrument-tomcat-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-instrument-tomcat-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-web-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-instrument-tomcat-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-instrument-tomcat-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aspects-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-aspects-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-portlet-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-webmvc-portlet-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aopalliance-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/aopalliance/aopalliance-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-webmvc-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aspects-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-aspects-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-portlet-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-webmvc-portlet-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-webmvc-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-aop-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jms-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-jms-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-instrument-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-instrument-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-webmvc-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-core-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-orm-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-orm-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-aop-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-context-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aspects-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-aspects-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-tx-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-support-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-context-support-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-support-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-context-support-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-tx-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-beans-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.1-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/commons-logging-1.1.1/commons-logging-1.1.1-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-aop-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-struts-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-struts-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-core-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/commons-logging-1.1.1/commons-logging-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-orm-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-orm-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-beans-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-web-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-oxm-3.2.1.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-oxm-3.2.1.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-instrument-3.2.1.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-instrument-3.2.1.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aopalliance-1.0-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/aopalliance/aopalliance-1.0-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-instrument-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-instrument-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-build-src-3.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/spring-framework-3.2.1.RELEASE/libs/spring-build-src-3.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-dbcp-1.3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/commons-dbcp-1.3/commons-dbcp-1.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-dbcp-1.3-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/commons-dbcp-1.3/commons-dbcp-1.3-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-dbcp-1.3-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/commons-dbcp-1.3/commons-dbcp-1.3-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-pool-1.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/commons-pool-1.6/commons-pool-1.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-pool-1.6-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/commons-pool-1.6/commons-pool-1.6-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-pool-1.6-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/commons-pool-1.6/commons-pool-1.6-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ant-contrib.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/mysql-connector-java-5.1.23/src/lib/ant-contrib.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="c3p0-0.9.1-pre6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/mysql-connector-java-5.1.23/src/lib/c3p0-0.9.1-pre6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="c3p0-0.9.1-pre6.src.zip" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/mysql-connector-java-5.1.23/src/lib/c3p0-0.9.1-pre6.src.zip">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.6.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/mysql-connector-java-5.1.23/src/lib/slf4j-api-1.6.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-common-jdbc-wrapper-src.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/mysql-connector-java-5.1.23/src/lib/jboss-common-jdbc-wrapper-src.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-common-jdbc-wrapper.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/mysql-connector-java-5.1.23/src/lib/jboss-common-jdbc-wrapper.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.23-bin.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/whannou/Java/mysql-connector-java-5.1.23/mysql-connector-java-5.1.23-bin.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="JBTSpringMVC"/>
+        <property name="java-output-path" value="/JBTSpringMVC/build/classes"/>
+    </wb-module>
+</project-modules>
