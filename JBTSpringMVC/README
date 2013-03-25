@@ -1,0 +1,14 @@
+This is a simple example of a Spring Web MVC App
+using database MuSQL or Derby database
+(In this case you need need uncomment relative bean in applicationContext.xml file
+and comment Mysql relative bean)
+To run this application Create in Eclipse a Dynamic Web Project
+Some libraries need to be added to your classpath and in WEB-INF/lib directories :
+	  - springframework 3.2.1  --> (http://www.springsource.org/download/community) 	
+	  - spring-web.jar  --> http://mvnrepository.com/artifact/org.springframework/spring-web/3.2.1.RELEASE
+	  -  org.springframework.web.servlet-x.y.z.jar http://ebr.springsource.com/repository/app/bundle/version/detail;jsessionid=17EDB8AFB17613E33F095033D7433053.jvm1?name=org.springframework.web.servlet&version=3.2.1.RELEASE
+	  - apache common dbcp jar 1.3 version
+	  - common logging jar 1.1.1
+	  - javax annotation jar 1.0
+	  - mysql connector jar version 5.1.xx and all jar in archive
+	  
